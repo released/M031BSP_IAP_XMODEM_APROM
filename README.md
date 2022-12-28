@@ -88,7 +88,7 @@ update @ 2022/12/28
 		
 	- reserve data flash address : 0x1F800 , 2K
 	
-2. Flash allocation
+5. Flash allocation
 
 	- LDROM_Bootloader.bin : 0x0000 ~ 0x4800
 	
@@ -100,7 +100,7 @@ update @ 2022/12/28
 	
 	- Chcecksum storage : 0x1F7FC
 
-3. Function assignment
+6. Function assignment
 
 	- debug port : UART1 (PB2 , PB3) , in Boot loader an Application code project
 	
@@ -108,7 +108,7 @@ update @ 2022/12/28
 	
 	- enable EMULATE EEPROM and CRC , Timer1 module
 	
-4. Need to use ICP tool , to programm boot loader project file (ISP_UART.bin)
+7. Need to use ICP tool , to programm boot loader project file (ISP_UART.bin)
 
 below is boot loader project , Config setting 
 
@@ -120,7 +120,7 @@ below is boot loader project , ICP programming setting
 
 ![image](https://github.com/released/M031BSP_IAP_XMODEM_APROM/blob/main/LDROM_ICP_update.jpg)
 
-5. under Application code KEIL project setting 
+8. under Application code KEIL project setting 
 
 ![image](https://github.com/released/M031BSP_IAP_XMODEM_APROM/blob/main/APROM_KEIL_checksum_calculate.jpg)
 
